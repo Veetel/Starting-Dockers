@@ -3,7 +3,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    # Let's make the message a bit more personal
     return "Bonsoir from my first Docker App in Clermont-Ferrand!"
 
 if __name__ == '__main__':
